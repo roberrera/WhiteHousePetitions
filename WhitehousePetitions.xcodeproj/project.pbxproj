@@ -13,6 +13,7 @@
 		D45987B31D77F5BF000F8825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45987B11D77F5BF000F8825 /* Main.storyboard */; };
 		D45987B51D77F5BF000F8825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45987B41D77F5BF000F8825 /* Assets.xcassets */; };
 		D45987B81D77F5BF000F8825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45987B61D77F5BF000F8825 /* LaunchScreen.storyboard */; };
+		D45987C01D7858DA000F8825 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45987BF1D7858DA000F8825 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D45987B41D77F5BF000F8825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D45987B71D77F5BF000F8825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D45987B91D77F5BF000F8825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45987BF1D7858DA000F8825 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				D45987B41D77F5BF000F8825 /* Assets.xcassets */,
 				D45987B61D77F5BF000F8825 /* LaunchScreen.storyboard */,
 				D45987B91D77F5BF000F8825 /* Info.plist */,
+				D45987C11D7858E6000F8825 /* lib */,
 			);
 			path = WhitehousePetitions;
+			sourceTree = "<group>";
+		};
+		D45987C11D7858E6000F8825 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D45987BF1D7858DA000F8825 /* SwiftyJSON.swift */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				D45987B01D77F5BF000F8825 /* DetailViewController.swift in Sources */,
 				D45987AE1D77F5BF000F8825 /* MasterViewController.swift in Sources */,
 				D45987AC1D77F5BF000F8825 /* AppDelegate.swift in Sources */,
+				D45987C01D7858DA000F8825 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
